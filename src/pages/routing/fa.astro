@@ -1,7 +1,5 @@
 ---
-// This page will redirect to a happ:// URL
-const response = await fetch('https://raw.githubusercontent.com/quazar-vpn/routing/refs/heads/main/FA.DEEPLINK');
-const redirectUrl = await response.text();
+
 ---
 
 <html lang="en">
@@ -10,11 +8,11 @@ const redirectUrl = await response.text();
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
     <meta name="viewport" content="width=device-width"/>
     <meta name="generator" content={Astro.generator}/>
-    <title>✨Quazar Routing [FA]</title>
+    <title>✨Quazar Routing [OFF]</title>
 
-    <script define:vars={{redirectUrl}}>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
-            window.location.href = redirectUrl;
+            window.location.href = "happ://routing/off";
         });
     </script>
 </head>
