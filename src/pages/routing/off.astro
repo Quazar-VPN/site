@@ -1,6 +1,6 @@
 ---
-// Persian routing Happ redirect
-const response = await fetch('https://raw.githubusercontent.com/quazar-vpn/routing/refs/heads/main/FA.DEEPLINK');
+// Disable routing Happ redirect
+const response = await fetch('https://raw.githubusercontent.com/quazar-vpn/routing/refs/heads/main/OFF.DEEPLINK');
 const redirectUrl = await response.text();
 ---
 
@@ -10,7 +10,7 @@ const redirectUrl = await response.text();
     <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
     <meta name="viewport" content="width=device-width"/>
     <meta name="generator" content={Astro.generator}/>
-    <title>✨Quazar Routing [FA]</title>
+    <title>✨Quazar Routing [OFF]</title>
 
     <script define:vars={{redirectUrl}}>
         document.addEventListener('DOMContentLoaded', () => {
