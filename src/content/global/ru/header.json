@@ -4,11 +4,11 @@
 	},
 	"pages": [
 		{
-			"title": "Home",
+			"title": "Главная",
 			"link": "/"
 		},
 		{
-			"title": "About",
+			"title": "О проекте",
 			"link": "/about"
 		}
 	],

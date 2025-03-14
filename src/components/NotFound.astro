@@ -9,12 +9,12 @@ import Title from "@/components/primitives/Title.astro";
 		<div class="flex flex-col gap-4">
 			<Title level={4} tag={2}>404</Title>
 			<Title level={3} tag={1}
-				>Whoops! La pagina che stai cercando non è stata trovata.</Title
+				>Whoops! Couldn't find page.</Title
 			>
 		</div>
 		<div class="flex flex-col gap-2">
 			<p class="text-gray-500 dark:text-gray-400">
-				Ecco alcune pagine che potresti visitare:
+				Maybe you mean:
 			</p>
 			<ul
 				class="flex flex-wrap justify-center items-center gap-x-4 text-gray-500 dark:text-gray-400"
@@ -23,13 +23,7 @@ import Title from "@/components/primitives/Title.astro";
 					<Link href="/">Home</Link>
 				</li>
 				<li>
-					<Link href="/about">Chi siamo</Link>
-				</li>
-				<li>
-					<Link href="/servizi">Servizi</Link>
-				</li>
-				<li>
-					<Link href="/contatti">Contatti</Link>
+					<Link href="/about">About</Link>
 				</li>
 			</ul>
 		</div>
