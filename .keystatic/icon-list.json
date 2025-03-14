@@ -1,0 +1,22 @@
+[
+	{
+		"label": "Dentista di qualità",
+		"value": "dentist-quality"
+	},
+	{
+		"label": "Sedia dentista",
+		"value": "dental-chair"
+	},
+	{
+		"label": "Pagamenti flessibili",
+		"value": "dentist-price"
+	},
+	{
+		"label": "Clinica dentale",
+		"value": "dental-clinic"
+	},
+	{
+		"label": "Whatsapp",
+		"value": "whatsapp"
+	}
+]
