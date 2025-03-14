@@ -16,11 +16,6 @@ const redirectUrl = await response.text();
         document.addEventListener('DOMContentLoaded', () => {
             // Attempt to redirect
             window.location.href = redirectUrl;
-
-            // Set a timeout to show manual instructions if automatic redirect fails
-            setTimeout(() => {
-                document.getElementById('manual-instructions').style.display = 'block';
-            }, 2000);
         });
     </script>
 </head>
