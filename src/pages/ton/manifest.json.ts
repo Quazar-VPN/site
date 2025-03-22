@@ -3,7 +3,7 @@ export function GET({}) {
         JSON.stringify({
             url: "https://quazar.icu",
             name: "Quazar",
-            iconUrl: "https://quazar.icu/logo.png",
+            iconUrl: "https://quazar.icu/ton-logo.png",
             termsOfUseUrl: "https://docs.quazar.icu/rules/terms-of-use",
             privacyPolicyUrl: ""
         }),
